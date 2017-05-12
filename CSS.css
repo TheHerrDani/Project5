@@ -2,3 +2,7 @@ th>div {
 display: inline-block;
 	
 }
+th>div:hover{
+	cursor: default;
+}
+

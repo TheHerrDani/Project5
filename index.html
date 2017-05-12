@@ -5,7 +5,7 @@
        <title>NicCageMovies</title>
        <link rel="stylesheet" type="text/css" href="CSS.css">
     </head>
-    <body>
+    <body onload="szuro()">
         <div>
             <table id="keressArraTable">
                 <thead>
@@ -16,16 +16,16 @@
                     <th><input type="checkbox" name="checkbox4" id="ReleaseYear" onclick="szuro();" checked>Release year <div onclick="szuro();" id="fel">&#9650;</div> <div onclick="szuro();" id="le">&#9660;</div></th>
                     <th><input type="checkbox" name="checkbox5" id="Rating" onclick="szuro();" checked>Rating <div onclick="szuro();" id="fel">&#9650;</div> <div onclick="szuro();" id="le">&#9660;</div></th>
                     <th><input type="checkbox" name="checkbox6" id="Category" onclick="szuro();" checked>Category <div onclick="szuro();" id="fel">&#9650;</div> <div onclick="szuro();" id="le">&#9660;</div></th>
-                    <th><input type="checkbox" name="checkbox7" id="ShowCast" onclick="szuro();" checked>Show cast <div onclick="szuro();" id="fel">&#9650;</div> <div onclick="szuro();" id="le">&#9660;</div></th>
+                    <th><input type="checkbox" name="checkbox7" id="ShowCast" onclick="szuro();" checked>Show cast </th>
                     <th><input type="checkbox" name="checkbox8" id="Director" onclick="szuro();" checked>Director <div onclick="szuro();" id="fel">&#9650;</div> <div onclick="szuro();" id="le">&#9660;</div></th>
-                    <th><input type="checkbox" name="checkbox9" id="Summary" onclick="szuro();" checked>Summary <div onclick="szuro();" id="fel">&#9650;</div> <div onclick="szuro();" id="le">&#9660;</div></th>
-                    <th><input type="checkbox" name="checkbox10" id="Poster" onclick="szuro();" checked>Poster <div onclick="szuro();" id="fel">&#9650;</div> <div onclick="szuro();" id="le">&#9660;</div></th>
+                    <th><input type="checkbox" name="checkbox9" id="Summary" onclick="szuro();" checked>Summary </th>
+                    <th><input type="checkbox" name="checkbox10" id="Poster" onclick="szuro();" checked>Poster </th>
+                    <th><input type="checkbox" name="checkbox11" id="runtime" onclick="szuro();" checked>Runtime <div onclick="szuro();" id="fel">&#9650;</div> <div onclick="szuro();" id="le">&#9660;</div></th>
+                    
                 </tr>
                 </thead>
-                <tbody>
-                    <tr>
-                        <td></td>
-                    </tr>
+                <tbody id="tbody">
+                   
                     
                 </tbody>
             </table>
