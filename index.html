@@ -3,22 +3,23 @@
     <head>
        <meta charset="utf-8">
        <title>NicCageMovies</title>
+       <link rel="stylesheet" type="text/css" href="CSS.css">
     </head>
     <body>
         <div>
-            <table>
+            <table id="keressArraTable">
                 <thead>
                 <tr>
-                    <th>Unit</th>
-                    <th>Show ID</th>
-                    <th>Show title</th>
-                    <th>Release year</th>
-                    <th>Rating</th>
-                    <th>Category</th>
-                    <th>Show cast</th>
-                    <th>Director</th>
-                    <th>Summary</th>
-                    <th>Poster</th>
+                    <th><input type="checkbox" name="checkbox1" id="unit" onclick="szuro();" checked> Unit <div onclick="szuro();" id="fel">&#9650;</div> <div onclick="szuro();" id="le">&#9660;</div></th>
+                    <th><input type="checkbox" name="checkbox2" id="ShowID" onclick="szuro();" checked>Show ID <div onclick="szuro();" id="fel">&#9650;</div> <div onclick="szuro();" id="le">&#9660;</div></th>
+                    <th><input type="checkbox" name="checkbox3" id="ShowTitle" onclick="szuro();" checked>Show title <div onclick="szuro();" id="fel">&#9650;</div> <div onclick="szuro();" id="le">&#9660;</div></th>
+                    <th><input type="checkbox" name="checkbox4" id="ReleaseYear" onclick="szuro();" checked>Release year <div onclick="szuro();" id="fel">&#9650;</div> <div onclick="szuro();" id="le">&#9660;</div></th>
+                    <th><input type="checkbox" name="checkbox5" id="Rating" onclick="szuro();" checked>Rating <div onclick="szuro();" id="fel">&#9650;</div> <div onclick="szuro();" id="le">&#9660;</div></th>
+                    <th><input type="checkbox" name="checkbox6" id="Category" onclick="szuro();" checked>Category <div onclick="szuro();" id="fel">&#9650;</div> <div onclick="szuro();" id="le">&#9660;</div></th>
+                    <th><input type="checkbox" name="checkbox7" id="ShowCast" onclick="szuro();" checked>Show cast <div onclick="szuro();" id="fel">&#9650;</div> <div onclick="szuro();" id="le">&#9660;</div></th>
+                    <th><input type="checkbox" name="checkbox8" id="Director" onclick="szuro();" checked>Director <div onclick="szuro();" id="fel">&#9650;</div> <div onclick="szuro();" id="le">&#9660;</div></th>
+                    <th><input type="checkbox" name="checkbox9" id="Summary" onclick="szuro();" checked>Summary <div onclick="szuro();" id="fel">&#9650;</div> <div onclick="szuro();" id="le">&#9660;</div></th>
+                    <th><input type="checkbox" name="checkbox10" id="Poster" onclick="szuro();" checked>Poster <div onclick="szuro();" id="fel">&#9650;</div> <div onclick="szuro();" id="le">&#9660;</div></th>
                 </tr>
                 </thead>
                 <tbody>
@@ -30,6 +31,9 @@
             </table>
 
         </div>
+        <script type="text/javascript" src="oszetettKereso.js"></script>
+        <script type="text/javascript" src="niccage.json"></script>
     </body>
 
 </html>
+
