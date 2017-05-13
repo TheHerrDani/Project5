@@ -7,7 +7,8 @@ var Caged = [{
     "show_cast":"Nicolas Cage, Bridget Fonda, Rosie P\u00e9rez, Wendell Pierce, Isaac Hayes, V\u00edctor Rojas, Seymour Cassel, Stanley Tucci, J.E. Freeman",
     "director":"Andrew Bergman",
     "summary":"In this charming romantic comedy based on a true story, a coffee-shop waitress gets a life-changing tip when a beat cop comes up short on pocket change and promises her half of his potential winnings from a lottery ticket.","poster":"http:\/\/netflixroulette.net\/api\/posters\/643557.jpg",
-    "mediatype":0,"runtime":"101 min"
+    "mediatype":0,
+    "runtime":"101 min"
     },
     { "unit": 800,
     "show_id":70143241,
