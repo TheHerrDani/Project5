@@ -183,31 +183,43 @@ function sortByDirector2(){
 
 
 function sortByRuntime1(){
-var runtimeA = a.parseInt(runtime);
-var runtimeB = b.parseInt(runtime);
     Caged.sort(function(a, b){
-        if(runtimeA < runtimeB){
-            return -1;
-        }
-        if (runtimeA > runtimeB){
-            return 1;
-        }
-        return 0;
+        var stringRuntimeA = a.runtime;
+        var patt1 = /\d+/g;
+        var result = stringRuntimeA.match(patt1);
+        var runtimeA = parseInt(stringRuntimeA);
+        var stringRuntimeB = b.runtime;
+        var patt2 = /\d+/g;
+        var result = stringRuntimeB.match(patt2);
+        var runtimeB = parseInt(stringRuntimeB);
+            if(runtimeA < runtimeB){
+                return -1;
+            }
+            if (runtimeA > runtimeB){
+                return 1;
+            }
+            return 0;
     });
     print(Caged);
 }
 
 function sortByRuntime2(){
-var runtimeA = a.parseInt(runtime);
-var runtimeB = b.parseInt(runtime);
     Caged.sort(function(a, b){
-        if(runtimeB < runtimeA){
-            return -1;
-        }
-        if (runtimeB > runtimeA){
-            return 1;
-        }
-        return 0;
+        var stringRuntimeA = a.runtime;
+        var patt1 = /\d+/g;
+        var result = stringRuntimeA.match(patt1);
+        var runtimeA = parseInt(stringRuntimeA);
+        var stringRuntimeB = b.runtime;
+        var patt2 = /\d+/g;
+        var result = stringRuntimeB.match(patt2);
+        var runtimeB = parseInt(stringRuntimeB);
+            if(runtimeB < runtimeA){
+                return -1;
+            }
+            if (runtimeB > runtimeA){
+                return 1;
+            }
+            return 0;
     });
     print(Caged);
 }
