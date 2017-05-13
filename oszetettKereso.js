@@ -12,7 +12,7 @@ var checkbox10 = document.getElementById("Poster");
 var checkbox11 = document.getElementById("runtime");
 var rowCaged = [];
 var Cagedproperty = [];
-    function szuro() {
+   function szuro() {
         
         print(Caged);
     }

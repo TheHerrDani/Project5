@@ -10,17 +10,18 @@
             <table id="keressArraTable">
                 <thead>
                 <tr>
-                    <th><input type="checkbox" name="checkbox1" id="unit" onclick="szuro();" checked> Unit <div onclick="szuro();" id="fel">&#9650;</div> <div onclick="szuro();" id="le">&#9660;</div></th>
-                    <th><input type="checkbox" name="checkbox2" id="ShowID" onclick="szuro();" checked>Show ID <div onclick="szuro();" id="fel">&#9650;</div> <div onclick="szuro();" id="le">&#9660;</div></th>
-                    <th><input type="checkbox" name="checkbox3" id="ShowTitle" onclick="szuro();" checked>Show title <div onclick="szuro();" id="fel">&#9650;</div> <div onclick="szuro();" id="le">&#9660;</div></th>
-                    <th><input type="checkbox" name="checkbox4" id="ReleaseYear" onclick="szuro();" checked>Release year <div onclick="szuro();" id="fel">&#9650;</div> <div onclick="szuro();" id="le">&#9660;</div></th>
-                    <th><input type="checkbox" name="checkbox5" id="Rating" onclick="szuro();" checked>Rating <div onclick="szuro();" id="fel">&#9650;</div> <div onclick="szuro();" id="le">&#9660;</div></th>
-                    <th><input type="checkbox" name="checkbox6" id="Category" onclick="szuro();" checked>Category <div onclick="szuro();" id="fel">&#9650;</div> <div onclick="szuro();" id="le">&#9660;</div></th>
+                    <!--...-->
+                    <th><input type="checkbox" name="checkbox1" id="unit" onclick="szuro();" checked> Unit <div onclick="sortByUnit1();" id="fel">&#9650;</div> <div onclick="sortByUnit2();" id="le">&#9660;</div></th>
+                    <th><input type="checkbox" name="checkbox2" id="ShowID" onclick="szuro();" checked>Show ID <div onclick="sortByID1();" id="fel">&#9650;</div> <div onclick="sortByID2();" id="le">&#9660;</div></th>
+                    <th><input type="checkbox" name="checkbox3" id="ShowTitle" onclick="szuro();" checked>Show title <div onclick="sortByShow_title1();" id="fel">&#9650;</div> <div onclick="sortByShow_title2();" id="le">&#9660;</div></th>
+                    <th><input type="checkbox" name="checkbox4" id="ReleaseYear" onclick="szuro();" checked>Release year <div onclick="sortByReleaseYear1();" id="fel">&#9650;</div> <div onclick="sortByReleaseYear2();" id="le">&#9660;</div></th>
+                    <th><input type="checkbox" name="checkbox5" id="Rating" onclick="szuro();" checked>Rating <div onclick="sortByRating1();" id="fel">&#9650;</div> <div onclick="sortByRating2();" id="le">&#9660;</div></th>
+                    <th><input type="checkbox" name="checkbox6" id="Category" onclick="szuro();" checked>Category <div onclick="sortByCategory1();" id="fel">&#9650;</div> <div onclick="sortByCategory2();" id="le">&#9660;</div></th>
                     <th><input type="checkbox" name="checkbox7" id="ShowCast" onclick="szuro();" checked>Show cast </th>
-                    <th><input type="checkbox" name="checkbox8" id="Director" onclick="szuro();" checked>Director <div onclick="szuro();" id="fel">&#9650;</div> <div onclick="szuro();" id="le">&#9660;</div></th>
+                    <th><input type="checkbox" name="checkbox8" id="Director" onclick="szuro();" checked>Director <div onclick="sortByDirector1();" id="fel">&#9650;</div> <div onclick="sortByDirector2()();" id="le">&#9660;</div></th>
                     <th><input type="checkbox" name="checkbox9" id="Summary" onclick="szuro();" checked>Summary </th>
                     <th><input type="checkbox" name="checkbox10" id="Poster" onclick="szuro();" checked>Poster </th>
-                    <th><input type="checkbox" name="checkbox11" id="runtime" onclick="szuro();" checked>Runtime <div onclick="szuro();" id="fel">&#9650;</div> <div onclick="szuro();" id="le">&#9660;</div></th>
+                    <th><input type="checkbox" name="checkbox11" id="runtime" onclick="szuro();" checked>Runtime <div onclick="sortByRuntime1();" id="fel">&#9650;</div> <div onclick="sortByRuntime2();" id="le">&#9660;</div></th>
                     
                 </tr>
                 </thead>
@@ -33,6 +34,7 @@
         </div>
         <script type="text/javascript" src="oszetettKereso.js"></script>
         <script type="text/javascript" src="Caged.js"></script>
+        <script type="text/javascript" src="sort.js"></script>
     </body>
 
 </html>
