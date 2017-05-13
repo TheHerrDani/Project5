@@ -31,7 +31,7 @@ var Caged = [{
     "show_cast":"Simon Callow, Rhys Ifans, Kate Winslet, Nicolas Cage, Jane Horrocks, Michael Gambon, Juliet Stevenson, Robert Llewellyn, Iain Jones, Colin McFarlane",
     "director":"Jimmy T. Murakami",
     "summary":"Nicolas Cage, Kate Winslet and Simon Callow provide voices for this animated version of the classic Charles Dickens tale about the miserable Ebenezer Scrooge, who learns the true meaning of Christmas from three ghosts who confront him in the night. The film uses live-action sequences to bookend the story, and a mouse in the animated portion helps younger viewers follow the story. Winslet sings the film's main theme.",
-    "poster":"http:\/\/netflixroulette.net\/api\/posters\/70131173.jpg",
+    "poster":"https://images-na.ssl-images-amazon.com/images/M/MV5BMTgzMDMyNDA0Nl5BMl5BanBnXkFtZTcwMzY0NjEzNA@@._V1_SY1000_CR0,0,722,1000_AL_.jpg",
     "mediatype":0,
     "runtime":"77 min"},
     {"unit":3863,
@@ -53,7 +53,7 @@ var Caged = [{
     "release_year":"2011",
     "rating":"3.8",
     "category":"Action & Adventure",
-    "show_cast":"Nicolas Cage, January Jones, Guy Pearce, Harold Perrineau, Jennifer Carpenter, Xander Berkeley, IronE Singleton, Wayne P\u00e9re, Marcus Lyle Brown, Jason Davis",
+    "show_cast":"Nicolas Cage, January Jones, Guy Pearce, Harold Perrineau, Jennifer Carpenter, Xander Berkeley, IronE Singleton, Wayne Pure, Marcus Lyle Brown, Jason Davis",
     "director":"Roger Donaldson",
     "summary":"After his wife is brutally raped, English teacher Will Gerard is approached by a man from a vigilante group who offers to exact revenge on the perpetrator. But once the deed is done, Will discovers that the group expects a certain favor in return.",
     "poster":"http:\/\/netflixroulette.net\/api\/posters\/70135880.jpg",
@@ -78,8 +78,11 @@ var Caged = [{
     "release_year":"2013",
     "rating":"3.4",
     "category":"Thrillers",
-    "poster":"http:\/\/netflixroulette.net\/api\/posters\/692295.jpg",
+    "show_cast":"Nicolas Cage, Vanessa Hudgens, John Cusack, Dean Norris, Gia Mantegna, Robert Forgit, Brad William Henke, Michael McGrady, Katherine LaNasa, Ryan O'Nan",
+    "director":"Scott Walker",
+    "summary":"Alaska Trooper Jack Holcombe believes Robert Hansen is a serial killer who abducts young girls, tortures and sexually assaults them, then kills them. But Holcombe doesn't have enough evidence to get a search warrant for Hansen's premises. Holcombe knows that one victim, Cyndy Paulsen, somehow survived, so he decides to seek her help, but he finds that she's now a junkie with trust issues. Holcombe has to earn her trust; meanwhile, Hansen is still hunting and killing girls.",
+    "poster":"https://images-na.ssl-images-amazon.com/images/M/MV5BMjA0MjAyMjIxMl5BMl5BanBnXkFtZTcwNTQ1NDc2OQ@@._V1_.jpg",
     "mediatype":0,
-    "runtime":"N\/A"
+    "runtime":"120 min"
     }
 ]
