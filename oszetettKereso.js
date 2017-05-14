@@ -116,12 +116,7 @@ function print(data) {
         }
 
         if (checkbox10.checked == true) {
-            var image = document.createElement("img");
-            image.src = data[i].poster;
-            console.log(image.src);
-            row.innerHTML += "<td>" ;
-            row.appendChild(image);
-            row.innerHTML += "</td>" ;
+            row.innerHTML += '<td><img src="'+ data[i].poster + '"</img></td>';
             Cagedproperty.push(data[i].poster);
         }
 
