@@ -34,10 +34,15 @@ td{
 }
 
 /*th{
-	display: inline;*/
-}
+	display: inline;
+}*/
+
 #th1{
 	width:5%;
+}
+
+#th2{
+	width: 6%;
 }
 
 #th3{
@@ -49,11 +54,23 @@ td{
 }
 
 #th5{
-	width: 5%;
+	width: 6%;
+}
+
+#th6{
+	width: 6%;
+}
+
+#th7{
+	width: 10%;
 }
 
 #th8{
-	width:3%;
+	width:6%;
+}
+
+#th9{
+	width: 20%;
 }
 
 #th10{
